@@ -12,13 +12,13 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "PUT-YOUR-ACCESS-KEY-HERE"
-  secret_key = "PUT-YOUR-SECRET-KEY-HERE"
+  region     = "us-east-2"
+  access_key = "AKIAWCPADDUKIJ2KQC76"
+  secret_key = "VijhaLYVhoO0B8YduXbmInEEg9z7umDaQUQAzd5z"
 }
 
 resource "aws_instance" "myec2" {
-   ami = "ami-082b5a644766e0e6f"
+   ami = "ami-0568773882d492fc8"
    instance_type = "t2.micro"
 }
 ```
